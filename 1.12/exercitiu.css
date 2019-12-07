@@ -1,0 +1,37 @@
+body{
+	background-color: #323639;
+}
+
+
+
+
+td {
+	height: 500px;
+	column-width: 200px;
+	border: 20px solid #323639;
+}
+/*div {
+	border: 2px solid black;
+}*/
+
+.v1{
+	background-color: #ff970f;
+}
+
+.v2{
+	background-color: #ad56f5;
+}
+
+.v3{
+	background-color: #f7483b;
+}
+
+.v4{
+	background-color: #00b6c7;
+}
+.v5{
+	background-color: #029c28;
+}
+h1{
+	color: grey;
+}
