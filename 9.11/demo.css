@@ -1,0 +1,38 @@
+/*CSS-Cascading Style sheets*/
+
+/*id selector*/
+#text{
+	background-color: blue;
+}
+
+/*class selector*/
+.ceva{
+
+    border-color: black;
+   border-width: 1px;
+   border-style: solid;
+}
+
+
+/*tag selector*/
+input{
+	color: red;
+}
+
+
+/*all the ths inside td*/
+td th{
+
+}
+
+/*all ths and tds*/
+td, th{
+	 border-color: black;
+   border-width: 1px;
+   border-style: solid;
+}
+
+
+.bg{
+	background-color: whitesmoke;
+}

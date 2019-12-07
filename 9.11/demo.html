@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Tables and Forms</title>
+	<!-- linkuri-le se scriu in head; link catre css; -->
+	<link rel="stylesheet" type="text/css" href="./demo.css">
+</head>
+
+
+<body>
+
+
+	<!-- Table element -->
+
+	<table class="ceva">
+		<thead class="ceva">
+			<th class="ceva">Nr. Ctr.</th>
+			<th class="ceva">Nume</th>
+			<th class="ceva">Prenume</th>
+			<th class="ceva">Varsta</th>
+		</thead>
+		<tbody class="ceva">
+			<tr class="ceva">
+				<td class="ceva">1</td>
+				<td class="ceva">Czobor</td>
+				<td class="ceva">Francisc</td>
+				<td class="ceva">22</td>
+			</tr>
+
+			<tr class="ceva">
+				<td class="ceva">2</td>
+				<td class="ceva">Ciocau</td>
+				<td class="ceva">Alex</td>
+				<td class="ceva">16</td>
+			</tr>
+			
+			<tr class="ceva">
+				<td class="ceva">3</td>
+				<td class="ceva">Ureche</td>
+				<td class="ceva">Tiberiu</td>
+				<td class="ceva">17</td>
+			</tr>
+			
+			<tr class="ceva">
+				<td class="ceva">4</td>
+				<td class="ceva">Preda</td>
+				<td class="ceva">Marius</td>
+				<td class="ceva">17</td>
+			</tr>
+			
+			
+
+
+		</tbody>
+	</table>
+	<br>
+
+
+
+	<!-- Form -->
+
+	<form>
+		<label for="text">Nume:</label>
+		<input id="text" type="text" name="text-input" placeholder="">
+		<br>
+
+
+		<label for="ch">Bifeaza:</label>
+		<input id="ch" type="checkbox" name="check-input">
+		<br>
+
+
+		<textarea name="area-input"></textarea>
+		<br>
+
+		<!-- <label for="rad">Radios</label> -->
+		<div id="rad"  class="bg">
+		<input i type="radio" name="radio" value="1">
+		<br>
+
+		<input type="radio" name="radio" value="2">
+		<br>
+
+		<input type="radio" name="radio" value="3">
+		<br>
+		</div>
+
+
+
+
+		<button type="submit">Done</button>
+		<br>
+
+		<input type="button" name="buton" value="Done 2">
+		<br>
+
+		<input type="email" name="email">
+		<br>
+		<br>
+	</form>
+
+
+	
+
+
+	
+    <!-- Login From -->
+
+	<form>
+		<!-- 'required' and 'hidden' are boolean attributes -->
+		<input type="email" name="email" placeholder="email" required>
+		<br>
+		<input type="Password" name="pa" placeholder="Password">
+		<br>
+		<input type="submit" name="su" value="login">
+		<br>
+	</form>
+
+</body>
+</html>
+<!-- MDN hinturi -->
