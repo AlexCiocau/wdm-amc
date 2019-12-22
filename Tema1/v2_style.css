@@ -1,0 +1,522 @@
+/*GENERAL SETTINGS*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	color: #D10000;
+
+}
+
+
+body {
+	background-color: rgb(49, 32, 32);
+	
+	
+}
+
+
+
+/*DISPLAY SETTINGS*/
+@media screen and (max-width: 680px) {
+	
+}
+@media screen and (max-width: 1150px) {
+	body {
+		/*overflow-x: hidden;*/
+	}
+	.nav-links {
+		position: absolute;
+		right: 0px;
+		height: 80vh;
+		top: 84px;
+		background-color: #191414;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		transform: translateX(100%);
+
+	}
+	.burger:hover {
+
+	}
+
+	.activewindow {
+		background-color: #191414 !important;
+		
+	}
+
+	a.home-padding:hover{
+		padding-left: 10.3rem;
+		padding-right: 10rem;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+		background-color: #D10000 !important; 
+
+	}
+	a.about-padding:hover{
+		padding-left: 10rem;
+		padding-right: 9.9rem;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+		background-color: #D10000 !important;
+		
+	}
+	a.recipes-padding:hover{
+		padding-left: 12.5vh;
+		padding-right: 9vh;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+		background-color: #D10000 !important;
+		
+	}
+	a.restaurants-padding:hover{
+		padding-left:8rem;
+		padding-right: 7.3rem;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+		background-color: #D10000 !important;
+		
+	}
+
+	.burger {
+		display: block !important;
+		cursor: pointer;
+	}
+	
+}
+
+
+
+
+.nav-active {
+	transform: translateX(0%);
+}
+
+
+
+
+
+/*PAGE CONTENT*/
+
+.contenttable {
+	height: 2500px;
+	width: 80%;
+	background-color: #5a1c1c61;
+	border-left: 3px solid #D10000;
+	border-right: 3px solid #D10000;
+
+
+}
+
+.tdtitle {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 100px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 35px;
+
+
+}
+
+.tdsubtitle {
+	padding: 30px;
+	height: 100px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 35px;
+	text-align: center;
+	border-top: 3px solid #D10000;
+	
+}
+.tdsubtitle2 {
+	padding: 30px;
+	height: 100px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 35px;
+
+}
+.tdtext {
+	padding-right: 20px;
+	padding-left: 20px;
+	height: 100px;
+
+}
+.tdtext2 {
+	padding: 20px;
+	height: 300px;
+	
+
+
+}
+
+td a:hover {
+	color: yellow;
+}
+
+.badquotes {
+	color: yellow !important;
+	font-style: italic;
+	font-size: 15px;
+	letter-spacing: 10px;
+	text-align: center;
+	height: 50px;
+	border-bottom: 3px solid #D10000;
+}
+
+.recomenu {
+	height: 400px;
+	bottom-border: 3px solid #D10000;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+td.tdtext img {
+	width: 1024;
+	height: 480;
+}
+
+td {
+	align-items: center;
+	justify-content: center;
+}
+
+
+.picture-size{
+	width: 30%;
+	height: 20%;
+
+}
+.td-size {
+	width: 300px !important;
+}
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #191414;
+    color: #D10000;
+    height: 90px;
+    border-top: 3px solid #D10000;
+    border-bottom: 3px solid #D10000;
+}
+
+footer td {
+	height: 40px;
+	width: 200px;
+
+
+}
+
+.footerbrand {
+	font-family: 'Permanent Marker', cursive;
+	-webkit-text-stroke: 1px yellow;
+	font-size: 20px;
+	text-align: center;
+}
+
+.footercompany {
+	text-align: center;
+	color: #d1000091;
+	font-size: 13px;
+
+}
+
+.footersocialmedia {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Permanent Marker', cursive;
+
+}
+
+.footerabout {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Permanent Marker', cursive;
+
+}
+
+footer a:hover {
+	color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*NAVBARLOGO*/
+
+.logo {
+	font-family: 'Permanent Marker', cursive;
+    color: #D10000;
+    font-size: 300%;
+    padding-left: 10px;
+    -webkit-text-stroke: 1px yellow;
+    text-decoration: none;
+
+
+
+
+
+
+
+
+
+    
+
+}
+
+/*NAV*/
+
+ nav {
+	display: flex;
+	background-color: #191414;
+	justify-content: space-around;
+	height: 90px;
+    border-bottom: 3px solid #D10000;
+    border-top: 3px solid #D10000;
+    align-items: center;
+   
+
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.content{
+	padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*NAVBAR ITEMS*/
+
+
+
+a{
+	text-decoration-line: none;
+ 	color: #D10000;
+ 	padding-right: 10px;
+ 	padding-left: 10px;
+ 	
+	
+ 	
+
+}
+
+.activewindow {
+	background-color: #D10000;
+	color: yellow;
+
+}
+
+.morepadding {
+	padding-top: 24px;
+	padding-bottom: 26px;
+	
+
+
+}
+
+ li a.morepadding:hover {
+ 	text-decoration-line: none;
+ 	color: yellow;
+ 	background-color: #D10000;
+
+	
+
+
+}
+
+ul {
+	list-style: none;
+}
+
+.nav-links {
+	display: inline-flex;
+	color: #D10000;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 25px;
+	display: inline-flex;
+	justify-content: space-around;
+	width: 35%;
+
+
+}
+
+li 	{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.burger div {
+	width: 25px;
+	height: 3px;
+	margin: 5px;
+}
+.burger {
+	display: none;
+}
+
+
+
+.line1 {
+	width: 25px;
+	height: 3px;
+	background-color: orange;
+	margin: 5px; 
+	
+
+}
+.line2 {
+	width: 25px;
+	height: 3px;
+	background-color: green;
+	margin: 5px; 
+
+
+}
+.line3 {
+	width: 25px;
+	height: 3px;
+	background-color: brown;
+	margin: 5px; 
+
+
+}
+.line4 {
+	width: 25px;
+	height: 3px;
+	background-color: orange;
+	margin: 5px; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DROPDOWN*/
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #191414;
+  color: #D10000;
+  font-size: 25px;
+  letter-spacing: 3px;
+  border: none;
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #191414;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 25px;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #D10000;
+  padding: 14px 14px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Permanent Marker', cursive;
+  border-bottom: solid #D10000;
+  font-size: 19px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #D10000;
+	color: yellow;
+	border-bottom: solid yellow;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+
+.dropdown:hover .dropdown-content + #dropbtn {
+	display: block;
+	background-color: #191414; 
+} 
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: #D10000;
+	color: yellow;
+	border-bottom: solid yellow;
+
+}
+
+
+
+

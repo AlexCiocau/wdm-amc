@@ -1,0 +1,127 @@
+/*GENERAL SETTINGS:*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;;
+}
+
+body {
+	background-color: rgba(53,54,58,1);
+
+}
+@media screen and (max-width: 480px) {
+	body {
+		display: none;
+	}
+}
+@media screen and (max-width: 720px) {
+	.nav-links {
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 8vh;
+		background-color: 
+	}
+}
+
+
+
+/*NAVBAR SETTINGS*/
+
+
+.logo {
+	font-family: 'Permanent Marker', cursive;
+    color: #D10000;
+    font-size: 200%;
+    padding-left: 10px;
+    -webkit-text-stroke: 1px yellow;
+    align-items: center;
+    left: 10px;
+
+
+}
+nav {
+	display: flex;
+	background-color: #191414;
+	justify-content: space-around;
+	height: 70px;
+    border-bottom: 3px solid #D10000;
+    align-items: center;
+
+
+
+}
+
+.nav-links {
+	display: inline-flex;
+	justify-content: space-around;
+	width: 40%;
+}
+
+.nav-links li {
+	list-style: none;
+}
+
+.nav-links a {
+	color: #D10000;
+	text-decoration: none;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px; 
+}
+
+li {
+	
+	display: inline-block;
+}
+
+li a {
+	padding-left:   27px;
+	padding-right:  27px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	margin-bottom: 0px;
+	border-left: 3px solid #D10000;
+	border-right: 3px solid #D10000;
+	
+	border-left-height: 200%;
+	
+	 
+}
+
+
+.line1 {
+	width: 25px;
+	height: 3px;
+	background-color: orange;
+	margin: 5px; 
+
+}
+.line2 {
+	width: 25px;
+	height: 3px;
+	background-color: green;
+	margin: 5px; 
+
+}
+.line3 {
+	width: 25px;
+	height: 3px;
+	background-color: brown;
+	margin: 5px; 
+
+}
+.line4 {
+	width: 25px;
+	height: 3px;
+	background-color: orange;
+	margin: 5px; 
+
+}
+
+.burger {
+	display: none;
+ 
+}
+
+
