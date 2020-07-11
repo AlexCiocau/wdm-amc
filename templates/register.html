@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block title %}
+  <title>Register</title>
+{% endblock %}
+{% block content %}
+  <div class="container">
+    <h1 class="display-1">Register your account!</h1>
+    <form method="post">
+      {% csrf_token %}
+        <!--   Personal Data     -->
+          <input class="form-control" type="text" name="first_name" placeholder="Enter your firstname" required>
+          <input class="form-control" type="text" name="last_name" placeholder="Enter your lastname" required>
+          <input class="form-control" type="text" name="nationalitate" placeholder="Enter your nationality" required>
+
+        <!--   Authentication data     -->
+          <input class="form-control" type="text" name="username" placeholder="Enter your username" required>
+          <input class="form-control" type="email" name="email" placeholder="Enter your email" required>
+          <input class="form-control" type="password" name="password" placeholder="Enter your password" required>
+
+        <!--    User Type Data    -->
+          <input class="form-control" type="checkbox" name="tip_utilizator" placeholder="Select your team role">
+
+      <input type="submit" class="btn btn-primary">
+    </form>
+  </div>
+{% endblock %}
